@@ -995,7 +995,8 @@ jlbl1.setText(""+log);
 jlbl2.setText(""+log);      
 try{         
         Class.forName("com.mysql.jdbc.Driver");
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mobilesr","root","opjs");
+        String pass="root";
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mobilesr","root",pass);
         String sql1="SELECT * from mobiles";
         Statement st=con.createStatement();
         ResultSet rs=st.executeQuery(sql1);
