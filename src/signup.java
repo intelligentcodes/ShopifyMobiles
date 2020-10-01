@@ -150,7 +150,7 @@ public class signup extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Calibri", 1, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("Password :");
+        jLabel8.setText("Please enter Password :");
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 130, -1, 40));
 
         jLabel9.setFont(new java.awt.Font("Calibri", 1, 18)); // NOI18N
@@ -418,6 +418,7 @@ public class signup extends javax.swing.JFrame {
                 }
                 else{
                     JOptionPane.showMessageDialog(null,"Please Check the Details");
+                    Syste,.out.println("Please check the detials");
                 }    
             }
         }
